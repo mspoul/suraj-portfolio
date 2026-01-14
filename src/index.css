@@ -1,0 +1,116 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+  @keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeInFast { animation: fadeIn 0.8s ease-out forwards; }
+.animate-fadeInSlow { animation: fadeIn 1.4s ease-out forwards; }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+ .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  /* font-style: italic; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.nav-links a:hover {
+  color: orange;
+}
+
+/* Hide hamburger on desktop */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* ===== Mobile Styles ===== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    background: #1f2937;
+    margin-top: 10px;
+
+    /* 🔽 Slide animation */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .nav-links.show {
+    max-height: 300px; /* enough to show menu */
+  }
+
+  .nav-links li {
+    text-align: center;
+  }
+}
+
+.project_button{
+
+    background-color: darkgrey;
+     
+    margin-top: 10px;
+}
+ 
+
+
