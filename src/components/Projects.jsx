@@ -14,7 +14,7 @@ function Projects() {
       name: "Personal Portfolio Website",
       description:"A modern and fully responsive personal portfolio website built using React.js, Tailwind CSS, and custom components. The site showcases my projects, technical skills, soft skills, resume preview, and contact details in a clean and interactive UI. It includes smooth animations, a dynamic navbar, project cards, responsive sections, resume download feature, and glass-morphism effects. This project demonstrates strong front-end development skills using React, Tailwind CSS, reusable components, responsive design, and UI/UX optimization.",
       tools: "React.js, Tailwind CSS, JavaScript, HTML",
-      github: "https://github.com/mspoul/",
+      github: "https://github.com/mspoul/suraj-portfolio",
       link: "#"       
 },  
 
