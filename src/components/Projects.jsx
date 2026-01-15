@@ -18,6 +18,7 @@ function Projects() {
       link: "https://surajpoul.netlify.app/"       
 },  
 
+
     {
       name: "Charity Management System",
       description:"A full-stack Charity Management System designed to manage donors, volunteers, events, and fund tracking efficiently. Built using Node.js, Express.js, MySQL, HTML, CSS, and JavaScript, the system provides a seamless workflow for recording donations, tracking charity activities, managing volunteer information, and organizing events. It includes secure backend APIs, database integration, form validations, dynamic UI, and real-time data handling. This project demonstrates strong backend development skills, SQL database design, REST API creation, and full-stack implementation for a real-world charity workflow.",
