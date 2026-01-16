@@ -60,7 +60,7 @@ function Navbar() {
 
           {/* DOWNLOAD BUTTON */}
           <a
-            href="/resume.pdf"
+            href="/SurajPoul_Mulkalapally.pdf"
             download="Suraj_Resume.pdf"
             className="px-4 py-2 bg-black text-white rounded-lg
                        hover:bg-gray-900 transition-all duration-300 hover:tracking-wider"
@@ -88,7 +88,7 @@ function Navbar() {
 
             {/* PDF Viewer */}
             <iframe
-              src="/resume.pdf"
+              src="/SurajPoul_Mulkalapally.pdf"
               className="w-full h-full rounded-lg"
               title="Resume Preview"
             ></iframe>

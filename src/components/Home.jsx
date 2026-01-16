@@ -70,7 +70,7 @@ function Home() {
             LC
           </a>
           <a
-            href="mailto:suraj@gmail.com"
+            href="mailto:mspoul8044@gmail.com"
             className="w-12 h-12 flex justify-center items-center text-xl
                       bg-white/20 backdrop-blur-md
                       rounded-full shadow-md shadow-black/30
